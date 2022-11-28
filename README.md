@@ -1,2 +1,4 @@
-# alx-higher_level_programming
-Starting My Python Programming Journey With ALX, Started With Python Basics
+# WELCOME TO PYTHON - A HIGH LEVEL PROGRAMMING LANGUAGE
+
+
+My Python programming journey with ALX starts here.
