@@ -9,7 +9,7 @@ def element_at(my_list, idx):
         return None
 
     # Checks if it's out of range
-    elif idx > len(my_list):
+    elif idx > len(my_list) - 1:
         return None
 
     # Prints element at index idx
