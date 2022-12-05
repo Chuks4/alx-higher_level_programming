@@ -5,4 +5,4 @@ def print_list_integer(my_list=[]):
     # Prints all integers in the list mylist
     # Loop through List to get each item
     for i in my_list:
-        print('{}'.format(i))
+        print('{:d}'.format(i))
