@@ -5,13 +5,10 @@ def element_at(my_list, idx):
     # Retrieves an element of a list
 
     # Checks if List index is a negative number
-    if idx < 0:
-        return None
-
-    # Checks if it's out of range
-    elif idx > len(my_list) - 1:
+    # Or out of range
+    if idx < 0 or idx > len(my_list) - 1:
         return None
 
     # Prints element at index idx
     else:
-        return "{}".format(my_list[idx])
+        return my_list[idx]
