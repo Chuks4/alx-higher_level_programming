@@ -2,8 +2,9 @@
 
 
 def print_reversed_list_integer(my_list=[]):
-    # Prints list in reversed order
-    my_list.reverse()
+    # Check if my_list is not empty
+    if my_list:
+        my_list.reverse()
 
     # Get each element using for loop
     for ele in my_list:
