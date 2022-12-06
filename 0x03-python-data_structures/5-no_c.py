@@ -6,6 +6,8 @@ def no_c(my_string):
     if my_string:
         # dict containing the unicode of the characters to be changed
         my_dict = {67: None, 99: None}
+
+        # Changing the specified characters and returning the new string
         return my_string.translate(my_dict)
     else:
         return my_string
