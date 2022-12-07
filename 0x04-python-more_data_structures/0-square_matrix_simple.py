@@ -8,9 +8,9 @@ def square_matrix_simple(matrix=[]):
     new = []
 
     # Checking if matrix is empty
-    if matrix:
+    if len(matrix) == 0:
         return new
 
     # Looping through the rows and columns of matrix
-    new = [[c ** 2 for c in r] for r in matrix]
+    new = [[c*c for c in r] for r in matrix]
     return new
