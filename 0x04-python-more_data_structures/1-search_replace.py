@@ -8,7 +8,7 @@
 
 
 def search_replace(my_list, search, replace):
-
+    new_list = my_list[:]
     # Checking if my_list is empty
     if len(my_list) == 0:
         return my_list
@@ -21,10 +21,10 @@ def search_replace(my_list, search, replace):
             if my_list[i] == search:
 
                 # Replace index equal to search with replace
-                my_list[i] = replace
+                new_list[i] = replace
 
                 # if non is equal to search, return my_list
             else:
                 pass
 
-    return my_list
+    return new_list
