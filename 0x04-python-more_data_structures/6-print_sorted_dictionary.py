@@ -6,7 +6,7 @@
 def print_sorted_dictionary(a_dictionary):
 
     # Check if a_dictionary is empty
-    if len(a_dictionary) == 0:
+    if a_dictionary == {}:
         return a_dictionary
 
     else:
