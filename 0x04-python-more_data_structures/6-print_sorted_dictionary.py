@@ -11,5 +11,5 @@ def print_sorted_dictionary(a_dictionary):
 
     else:
         # Loop through the dictionary
-        for k, v in sorted(a_dictionary.items()):
-            print(f'{k}: {v}')
+        for k in sorted(a_dictionary):
+            print(f'{k}: {a_dictionary[k]}')
